@@ -1,0 +1,6 @@
+framework module Pods_CashPort {
+  umbrella header "Pods-CashPort-umbrella.h"
+
+  export *
+  module * { export * }
+}

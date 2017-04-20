@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="10174" systemVersion="15D21" minimumToolsVersion="Automatic">
+    <entity name="Currency" representedClassName=".Currency" syncable="YES">
+        <attribute name="code" optional="YES" attributeType="String" minValueString="3" maxValueString="3" syncable="YES"/>
+        <attribute name="fullName" optional="YES" attributeType="String" minValueString="3" syncable="YES"/>
+        <attribute name="pickerName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="usdRate" optional="YES" attributeType="Double" defaultValueString="-99.90000000000001" syncable="YES"/>
+    </entity>
+    <entity name="Favorite" representedClassName=".Favorite" syncable="YES">
+        <attribute name="codeFROM" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="codeTO" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="fullNameFROM" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="fullNameTO" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Currency" positionX="-63" positionY="-18" width="128" height="105"/>
+        <element name="Favorite" positionX="-63" positionY="9" width="128" height="105"/>
+    </elements>
+</model>

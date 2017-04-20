@@ -1,0 +1,718 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		011CD81CAE2FFA47C49EBBC978C5221B /* JSONLiteralConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76F7BAB25192EF21BE4A49CFC64365CC /* JSONLiteralConvertible.swift */; };
+		0989A3DE0E6A8623B0285F6A43F64338 /* JSONDecodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401CC1F374199988D6D1EE29DC82EFA9 /* JSONDecodable.swift */; };
+		0F6F4BE961F1C5C3F0E43B216D3CC432 /* JSONEncodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = E07321E9E25609C09C89EC6E5EA1975F /* JSONEncodable.swift */; };
+		105B197646CDE29A8A8AD0F0D63634E7 /* JSONParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17602A7E5CF248E302411A2850704EC9 /* JSONParser.swift */; };
+		2E15D42853072F524D4C52D2EB4E540C /* Pods-CashPort-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ED7C06C61139A31A053F49020F8FC616 /* Pods-CashPort-dummy.m */; };
+		39C00585721DAA658D49FA0D043B0BD6 /* Freddy-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BFE11471E55DFD077C5F283F8572ED80 /* Freddy-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		410873BD589619D3CF87B5618C7DD6B0 /* Pods-CashPortTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7347D7E96E98DE6BE7951DF7AE12381E /* Pods-CashPortTests-dummy.m */; };
+		516969644783E606D69C48DA8C7C7E92 /* JSONSerializing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24EFC106BCD80D3E37D49641FC6A5722 /* JSONSerializing.swift */; };
+		573A3C88386CD5BC44ABE2A58C3F5D53 /* Freddy-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 756D226F822B29A39E5183D19AE30C0F /* Freddy-dummy.m */; };
+		6A4B5E514006D356EF0164F950741D3E /* JSONEncodingDetector.swift in Sources */ = {isa = PBXBuildFile; fileRef = F72000EFD69D7EA21BAF5BD761257794 /* JSONEncodingDetector.swift */; };
+		86DE9C7A22893BC6B586C342425830ED /* Freddy.h in Headers */ = {isa = PBXBuildFile; fileRef = 0AD46A877F2E2F40A6E7752F82DB0E40 /* Freddy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		926F4FE7135669959233E4E0E3F58B0C /* JSONSubscripting.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA8FE8E5A82978DE163B48676094EDCB /* JSONSubscripting.swift */; };
+		92E6B81F6EF31587F09CC5C3B66FE159 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		9FA5370C265031F841BFB7D0BF633B78 /* Pods-CashPortTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6CC1CB8F8D9CEE88BF6BABEA9FF48575 /* Pods-CashPortTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A61746E3E5BCBB532FFE13549C6675DF /* JSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B345BAD1A291303ED82C98804B9287 /* JSON.swift */; };
+		AAB814F9F9919DA81A6232FCB06524DA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		CB0EB9662984EE4F7FF5362022E4F2A1 /* JSONParsing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 974F95C18A33BB3B04066100BE70B5C8 /* JSONParsing.swift */; };
+		F7ADC6D0D88075B8A8268F4D4B9D513C /* Pods-CashPort-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F3089E1F2D5A023AB0431A6745BBE004 /* Pods-CashPort-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F9E22D7B9BDA6DC2124F4D281FE99D86 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A6D43A97275011B2A205DC547C2964FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 92C978222374EEBB941EDA9BC290B8C7;
+			remoteInfo = Freddy;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0AD46A877F2E2F40A6E7752F82DB0E40 /* Freddy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Freddy.h; path = Sources/Freddy.h; sourceTree = "<group>"; };
+		17602A7E5CF248E302411A2850704EC9 /* JSONParser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JSONParser.swift; path = Sources/JSONParser.swift; sourceTree = "<group>"; };
+		1CF14F2648FC856E6193DEAD833C71BD /* Pods-CashPortTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CashPortTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		235E5DE32C80257D5BB4E5C936467FA7 /* Pods-CashPort.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CashPort.debug.xcconfig"; sourceTree = "<group>"; };
+		24EFC106BCD80D3E37D49641FC6A5722 /* JSONSerializing.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JSONSerializing.swift; path = Sources/JSONSerializing.swift; sourceTree = "<group>"; };
+		401CC1F374199988D6D1EE29DC82EFA9 /* JSONDecodable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JSONDecodable.swift; path = Sources/JSONDecodable.swift; sourceTree = "<group>"; };
+		484F48E299651926A7974ED5B3F2BECD /* Pods-CashPortTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CashPortTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6535551815C84E1AACD397FDBF74D4AF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6A6CD528D596881E19BA8CB78407FDAE /* Pods-CashPort.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-CashPort.modulemap"; sourceTree = "<group>"; };
+		6CC1CB8F8D9CEE88BF6BABEA9FF48575 /* Pods-CashPortTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CashPortTests-umbrella.h"; sourceTree = "<group>"; };
+		7347D7E96E98DE6BE7951DF7AE12381E /* Pods-CashPortTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CashPortTests-dummy.m"; sourceTree = "<group>"; };
+		756D226F822B29A39E5183D19AE30C0F /* Freddy-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Freddy-dummy.m"; sourceTree = "<group>"; };
+		76F7BAB25192EF21BE4A49CFC64365CC /* JSONLiteralConvertible.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JSONLiteralConvertible.swift; path = Sources/JSONLiteralConvertible.swift; sourceTree = "<group>"; };
+		7C86924FA3723C4E5C6A779724B6A70E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D633052510746943DE76CFC766B6B2B /* Pods-CashPortTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CashPortTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		91B0CB04E7C33CA7509462DFBB4D8F24 /* Freddy.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Freddy.modulemap; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		974F95C18A33BB3B04066100BE70B5C8 /* JSONParsing.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JSONParsing.swift; path = Sources/JSONParsing.swift; sourceTree = "<group>"; };
+		996633CDDD02F86E458C63897E730073 /* Freddy.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Freddy.xcconfig; sourceTree = "<group>"; };
+		A6B2DFAF4CA63108E43D04B402070C79 /* Pods-CashPortTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CashPortTests.release.xcconfig"; sourceTree = "<group>"; };
+		A6DE024C58B2B115710840AEC5F747AC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A93192C02ADD4E0ED2233BE590A72944 /* Pods-CashPort-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CashPort-frameworks.sh"; sourceTree = "<group>"; };
+		ADBB04078318923B08EE311B62CE788F /* Pods-CashPortTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-CashPortTests.modulemap"; sourceTree = "<group>"; };
+		B18868F86C25FD13C17E050C14DF054F /* Freddy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Freddy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5F9B7784889F4BDC0ACFA6DA86B3E02 /* Pods-CashPort-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CashPort-acknowledgements.plist"; sourceTree = "<group>"; };
+		B7B345BAD1A291303ED82C98804B9287 /* JSON.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JSON.swift; path = Sources/JSON.swift; sourceTree = "<group>"; };
+		BFE11471E55DFD077C5F283F8572ED80 /* Freddy-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Freddy-umbrella.h"; sourceTree = "<group>"; };
+		CA8FE8E5A82978DE163B48676094EDCB /* JSONSubscripting.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JSONSubscripting.swift; path = Sources/JSONSubscripting.swift; sourceTree = "<group>"; };
+		CB43E7B2A7F94680EEAD76899077E3E7 /* Pods-CashPort-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CashPort-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D96DF01D5871D2589EF2D5CD315D033B /* Pods_CashPort.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CashPort.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E07321E9E25609C09C89EC6E5EA1975F /* JSONEncodable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JSONEncodable.swift; path = Sources/JSONEncodable.swift; sourceTree = "<group>"; };
+		E5025912E4FC97D46B7587828C807E90 /* Pods-CashPort.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CashPort.release.xcconfig"; sourceTree = "<group>"; };
+		E5AFD1485B14A8684CDBBBA31FA13F64 /* Pods-CashPortTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CashPortTests-resources.sh"; sourceTree = "<group>"; };
+		ED7C06C61139A31A053F49020F8FC616 /* Pods-CashPort-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CashPort-dummy.m"; sourceTree = "<group>"; };
+		F3089E1F2D5A023AB0431A6745BBE004 /* Pods-CashPort-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CashPort-umbrella.h"; sourceTree = "<group>"; };
+		F4ACF481AF1FE7D413F8687974BF6C05 /* Pods-CashPortTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CashPortTests-frameworks.sh"; sourceTree = "<group>"; };
+		F72000EFD69D7EA21BAF5BD761257794 /* JSONEncodingDetector.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JSONEncodingDetector.swift; path = Sources/JSONEncodingDetector.swift; sourceTree = "<group>"; };
+		FA24F9F7F6FC358274DF2F05C939B3E3 /* Pods_CashPortTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CashPortTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCA403012908BCA877AC94FA8CD22E80 /* Freddy-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Freddy-prefix.pch"; sourceTree = "<group>"; };
+		FEFC07AD152A8749D65CE1057CBD3B93 /* Pods-CashPort-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CashPort-resources.sh"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7B756BF8B431E9B97086979B86E99528 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAB814F9F9919DA81A6232FCB06524DA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6BF80673A8A970C7EC18F7A06E00BAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9E22D7B9BDA6DC2124F4D281FE99D86 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C84AFA6ED4A904BF3B720AA8B442D2BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92E6B81F6EF31587F09CC5C3B66FE159 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		12711135D06B4A65FBF69B027951817E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B18868F86C25FD13C17E050C14DF054F /* Freddy.framework */,
+				D96DF01D5871D2589EF2D5CD315D033B /* Pods_CashPort.framework */,
+				FA24F9F7F6FC358274DF2F05C939B3E3 /* Pods_CashPortTests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		221D3128CE624C87978AA98748D0B496 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F563AC20106DE013A608B10D0CA288D6 /* Pods-CashPort */,
+				745C88A0305C4D9DBBCD7D6082275E50 /* Pods-CashPortTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		745C88A0305C4D9DBBCD7D6082275E50 /* Pods-CashPortTests */ = {
+			isa = PBXGroup;
+			children = (
+				7C86924FA3723C4E5C6A779724B6A70E /* Info.plist */,
+				ADBB04078318923B08EE311B62CE788F /* Pods-CashPortTests.modulemap */,
+				1CF14F2648FC856E6193DEAD833C71BD /* Pods-CashPortTests-acknowledgements.markdown */,
+				8D633052510746943DE76CFC766B6B2B /* Pods-CashPortTests-acknowledgements.plist */,
+				7347D7E96E98DE6BE7951DF7AE12381E /* Pods-CashPortTests-dummy.m */,
+				F4ACF481AF1FE7D413F8687974BF6C05 /* Pods-CashPortTests-frameworks.sh */,
+				E5AFD1485B14A8684CDBBBA31FA13F64 /* Pods-CashPortTests-resources.sh */,
+				6CC1CB8F8D9CEE88BF6BABEA9FF48575 /* Pods-CashPortTests-umbrella.h */,
+				484F48E299651926A7974ED5B3F2BECD /* Pods-CashPortTests.debug.xcconfig */,
+				A6B2DFAF4CA63108E43D04B402070C79 /* Pods-CashPortTests.release.xcconfig */,
+			);
+			name = "Pods-CashPortTests";
+			path = "Target Support Files/Pods-CashPortTests";
+			sourceTree = "<group>";
+		};
+		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		76499D7EAF5E4C9E8E02286B27E24CD6 /* Freddy */ = {
+			isa = PBXGroup;
+			children = (
+				0AD46A877F2E2F40A6E7752F82DB0E40 /* Freddy.h */,
+				B7B345BAD1A291303ED82C98804B9287 /* JSON.swift */,
+				401CC1F374199988D6D1EE29DC82EFA9 /* JSONDecodable.swift */,
+				E07321E9E25609C09C89EC6E5EA1975F /* JSONEncodable.swift */,
+				F72000EFD69D7EA21BAF5BD761257794 /* JSONEncodingDetector.swift */,
+				76F7BAB25192EF21BE4A49CFC64365CC /* JSONLiteralConvertible.swift */,
+				17602A7E5CF248E302411A2850704EC9 /* JSONParser.swift */,
+				974F95C18A33BB3B04066100BE70B5C8 /* JSONParsing.swift */,
+				24EFC106BCD80D3E37D49641FC6A5722 /* JSONSerializing.swift */,
+				CA8FE8E5A82978DE163B48676094EDCB /* JSONSubscripting.swift */,
+				D48F77FD316492877A54D97A41FAD992 /* Support Files */,
+			);
+			path = Freddy;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				FB4840957A43F162AE1AF59CE7469DAC /* Pods */,
+				12711135D06B4A65FBF69B027951817E /* Products */,
+				221D3128CE624C87978AA98748D0B496 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D48F77FD316492877A54D97A41FAD992 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				91B0CB04E7C33CA7509462DFBB4D8F24 /* Freddy.modulemap */,
+				996633CDDD02F86E458C63897E730073 /* Freddy.xcconfig */,
+				756D226F822B29A39E5183D19AE30C0F /* Freddy-dummy.m */,
+				FCA403012908BCA877AC94FA8CD22E80 /* Freddy-prefix.pch */,
+				BFE11471E55DFD077C5F283F8572ED80 /* Freddy-umbrella.h */,
+				6535551815C84E1AACD397FDBF74D4AF /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Freddy";
+			sourceTree = "<group>";
+		};
+		F563AC20106DE013A608B10D0CA288D6 /* Pods-CashPort */ = {
+			isa = PBXGroup;
+			children = (
+				A6DE024C58B2B115710840AEC5F747AC /* Info.plist */,
+				6A6CD528D596881E19BA8CB78407FDAE /* Pods-CashPort.modulemap */,
+				CB43E7B2A7F94680EEAD76899077E3E7 /* Pods-CashPort-acknowledgements.markdown */,
+				B5F9B7784889F4BDC0ACFA6DA86B3E02 /* Pods-CashPort-acknowledgements.plist */,
+				ED7C06C61139A31A053F49020F8FC616 /* Pods-CashPort-dummy.m */,
+				A93192C02ADD4E0ED2233BE590A72944 /* Pods-CashPort-frameworks.sh */,
+				FEFC07AD152A8749D65CE1057CBD3B93 /* Pods-CashPort-resources.sh */,
+				F3089E1F2D5A023AB0431A6745BBE004 /* Pods-CashPort-umbrella.h */,
+				235E5DE32C80257D5BB4E5C936467FA7 /* Pods-CashPort.debug.xcconfig */,
+				E5025912E4FC97D46B7587828C807E90 /* Pods-CashPort.release.xcconfig */,
+			);
+			name = "Pods-CashPort";
+			path = "Target Support Files/Pods-CashPort";
+			sourceTree = "<group>";
+		};
+		FB4840957A43F162AE1AF59CE7469DAC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				76499D7EAF5E4C9E8E02286B27E24CD6 /* Freddy */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		AFAD0C6BE86C70EF3012466DA20FEF1A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39C00585721DAA658D49FA0D043B0BD6 /* Freddy-umbrella.h in Headers */,
+				86DE9C7A22893BC6B586C342425830ED /* Freddy.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDD8B0CBA420AC1D575210000FC9D1F4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7ADC6D0D88075B8A8268F4D4B9D513C /* Pods-CashPort-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E24F00191EB0BE095E8D1AD980C57421 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FA5370C265031F841BFB7D0BF633B78 /* Pods-CashPortTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		61672141E62254292E88E290C36B31B6 /* Pods-CashPort */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3FC54C2E7D03FADACFE303BB3807916 /* Build configuration list for PBXNativeTarget "Pods-CashPort" */;
+			buildPhases = (
+				F7B1822E02E8ADA41BEA8A12F37934AA /* Sources */,
+				C6BF80673A8A970C7EC18F7A06E00BAF /* Frameworks */,
+				CDD8B0CBA420AC1D575210000FC9D1F4 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8DF72BE3AE8DA1504B0F03A183C7A4E0 /* PBXTargetDependency */,
+			);
+			name = "Pods-CashPort";
+			productName = "Pods-CashPort";
+			productReference = D96DF01D5871D2589EF2D5CD315D033B /* Pods_CashPort.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		92C978222374EEBB941EDA9BC290B8C7 /* Freddy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADBA58B4DB2F5D882E28AD35F72D63A7 /* Build configuration list for PBXNativeTarget "Freddy" */;
+			buildPhases = (
+				F2BF0827972C21A6EE77E7AC8C2D3422 /* Sources */,
+				C84AFA6ED4A904BF3B720AA8B442D2BC /* Frameworks */,
+				AFAD0C6BE86C70EF3012466DA20FEF1A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Freddy;
+			productName = Freddy;
+			productReference = B18868F86C25FD13C17E050C14DF054F /* Freddy.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		AC9A1224165EE68107F2FC2CBE0CFEE0 /* Pods-CashPortTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 51C11FE74EA9729044DA20976156BF15 /* Build configuration list for PBXNativeTarget "Pods-CashPortTests" */;
+			buildPhases = (
+				A1D5DCC54C765915BA5EADFECC89CB6A /* Sources */,
+				7B756BF8B431E9B97086979B86E99528 /* Frameworks */,
+				E24F00191EB0BE095E8D1AD980C57421 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-CashPortTests";
+			productName = "Pods-CashPortTests";
+			productReference = FA24F9F7F6FC358274DF2F05C939B3E3 /* Pods_CashPortTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+				TargetAttributes = {
+					61672141E62254292E88E290C36B31B6 = {
+						LastSwiftMigration = 0810;
+					};
+					92C978222374EEBB941EDA9BC290B8C7 = {
+						LastSwiftMigration = 0810;
+					};
+				};
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 12711135D06B4A65FBF69B027951817E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				92C978222374EEBB941EDA9BC290B8C7 /* Freddy */,
+				61672141E62254292E88E290C36B31B6 /* Pods-CashPort */,
+				AC9A1224165EE68107F2FC2CBE0CFEE0 /* Pods-CashPortTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A1D5DCC54C765915BA5EADFECC89CB6A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				410873BD589619D3CF87B5618C7DD6B0 /* Pods-CashPortTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2BF0827972C21A6EE77E7AC8C2D3422 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				573A3C88386CD5BC44ABE2A58C3F5D53 /* Freddy-dummy.m in Sources */,
+				A61746E3E5BCBB532FFE13549C6675DF /* JSON.swift in Sources */,
+				0989A3DE0E6A8623B0285F6A43F64338 /* JSONDecodable.swift in Sources */,
+				0F6F4BE961F1C5C3F0E43B216D3CC432 /* JSONEncodable.swift in Sources */,
+				6A4B5E514006D356EF0164F950741D3E /* JSONEncodingDetector.swift in Sources */,
+				011CD81CAE2FFA47C49EBBC978C5221B /* JSONLiteralConvertible.swift in Sources */,
+				105B197646CDE29A8A8AD0F0D63634E7 /* JSONParser.swift in Sources */,
+				CB0EB9662984EE4F7FF5362022E4F2A1 /* JSONParsing.swift in Sources */,
+				516969644783E606D69C48DA8C7C7E92 /* JSONSerializing.swift in Sources */,
+				926F4FE7135669959233E4E0E3F58B0C /* JSONSubscripting.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7B1822E02E8ADA41BEA8A12F37934AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E15D42853072F524D4C52D2EB4E540C /* Pods-CashPort-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8DF72BE3AE8DA1504B0F03A183C7A4E0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Freddy;
+			target = 92C978222374EEBB941EDA9BC290B8C7 /* Freddy */;
+			targetProxy = A6D43A97275011B2A205DC547C2964FB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0707CC52D3D22C497193ACDF6CCF1C27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 996633CDDD02F86E458C63897E730073 /* Freddy.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Freddy/Freddy-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Freddy/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Freddy/Freddy.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Freddy;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		27588CD5F5E543992CE7D719F8C27269 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 996633CDDD02F86E458C63897E730073 /* Freddy.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Freddy/Freddy-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Freddy/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Freddy/Freddy.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Freddy;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3FA451D268613890FA8A5A03801E11D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5E62115DE8C09934BF8D2FE5D15FED1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		B49E563F39CDF1D9544BB86755A4301F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 484F48E299651926A7974ED5B3F2BECD /* Pods-CashPortTests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-CashPortTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CashPortTests/Pods-CashPortTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_CashPortTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CCD193AE280D7BB6E575FF853225C7DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 235E5DE32C80257D5BB4E5C936467FA7 /* Pods-CashPort.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-CashPort/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CashPort/Pods-CashPort.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_CashPort;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D0D8DF3ED71FA3780C7DBC273D7A67F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A6B2DFAF4CA63108E43D04B402070C79 /* Pods-CashPortTests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-CashPortTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CashPortTests/Pods-CashPortTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_CashPortTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FA0DA9F220086B60990A6CF66A0D35EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5025912E4FC97D46B7587828C807E90 /* Pods-CashPort.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-CashPort/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CashPort/Pods-CashPort.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_CashPort;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E62115DE8C09934BF8D2FE5D15FED1E /* Debug */,
+				3FA451D268613890FA8A5A03801E11D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		51C11FE74EA9729044DA20976156BF15 /* Build configuration list for PBXNativeTarget "Pods-CashPortTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B49E563F39CDF1D9544BB86755A4301F /* Debug */,
+				D0D8DF3ED71FA3780C7DBC273D7A67F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ADBA58B4DB2F5D882E28AD35F72D63A7 /* Build configuration list for PBXNativeTarget "Freddy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0707CC52D3D22C497193ACDF6CCF1C27 /* Debug */,
+				27588CD5F5E543992CE7D719F8C27269 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3FC54C2E7D03FADACFE303BB3807916 /* Build configuration list for PBXNativeTarget "Pods-CashPort" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCD193AE280D7BB6E575FF853225C7DD /* Debug */,
+				FA0DA9F220086B60990A6CF66A0D35EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
